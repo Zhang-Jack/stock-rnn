@@ -1,8 +1,8 @@
 ### Predict stock market prices using RNN forked from lilianweng's repo 
 
-First of all, thanks for lilianweng!
-and I did some change to make it work with python 3.5 version on windows
-also add profit calculator and prediction rate for the RNN
+### First of all, thanks for lilianweng!
+### And I did some change to make it work with python 3.5 version on windows
+### Also added profit calculator and prediction rate for the RNN
 
 The original introduction shows below:
 Check lilianweng's blog post "Predict Stock Prices Using RNN": [Part 1](https://lilianweng.github.io/lil-log/2017/07/08/predict-stock-prices-using-RNN-part-1.html) and [Part 2](https://lilianweng.github.io/lil-log/2017/07/22/predict-stock-prices-using-RNN-part-2.html) for the tutorial associated.
