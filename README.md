@@ -1,6 +1,11 @@
-### Predict stock market prices using RNN
+### Predict stock market prices using RNN forked from lilianweng's repo 
 
-Check my blog post "Predict Stock Prices Using RNN": [Part 1](https://lilianweng.github.io/lil-log/2017/07/08/predict-stock-prices-using-RNN-part-1.html) and [Part 2](https://lilianweng.github.io/lil-log/2017/07/22/predict-stock-prices-using-RNN-part-2.html) for the tutorial associated.
+First of all, thanks for lilianweng!
+and I did some change to make it work with python 3.5 version on windows
+also add profit calculator and prediction rate for the RNN
+
+The original introduction shows below:
+Check lilianweng's blog post "Predict Stock Prices Using RNN": [Part 1](https://lilianweng.github.io/lil-log/2017/07/08/predict-stock-prices-using-RNN-part-1.html) and [Part 2](https://lilianweng.github.io/lil-log/2017/07/22/predict-stock-prices-using-RNN-part-2.html) for the tutorial associated.
 
 One thing I would like to emphasize that because my motivation is more on demonstrating how to build and train an RNN model in Tensorflow and less on solve the stock prediction problem, I didn't try too hard on improving the prediction outcomes. You are more than welcome to take this repo as a reference point and add more stock prediction related ideas to improve it. Enjoy.
 
@@ -31,7 +36,7 @@ tensorboard --logdir ./logs --port 1234 --debug
 ```
 
 My python environment: 
-Python version == 2.7
+Python version == 3.5.5
 ```
 BeautifulSoup==3.2.1
 numpy==1.13.1
